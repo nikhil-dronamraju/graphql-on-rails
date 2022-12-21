@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "private": "true",
+  "dependencies": {
+    "@apollo/client": "^3.7.2",
+    "@hotwired/stimulus": "^3.2.1",
+    "@hotwired/turbo-rails": "^7.2.4",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
+    "bulma": "^0.9.4",
+    "esbuild": "^0.16.8",
+    "firebase": "^9.15.0",
+    "firebase-tools": "^11.19.0",
+    "graphql": "^16.6.0",
+    "jshint": "^2.13.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-router": "^6.5.0",
+    "react-router-dom": "^6.5.0",
+    "sass": "^1.57.1",
+    "tsc": "^2.0.4"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets",
+    "build:css": "sass ./app/assets/stylesheets/application.bulma.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  }
+}

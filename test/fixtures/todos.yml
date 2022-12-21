@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  action: MyString
+  deadline: 2022-12-17
+  important: false
+  urgent: false
+
+two:
+  action: MyString
+  deadline: 2022-12-17
+  important: false
+  urgent: false
