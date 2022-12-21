@@ -32,13 +32,13 @@ const Edit = () => {
                     <div className='field'>
                         <label className='label'>Enter Task:
                             <div className='control'>
-                                <input className='input' placeholder='Task...' onChange={(e) => {setAction(e.target.value)}}/>
+                                <input className='input' required placeholder='Task...' onChange={(e) => {setAction(e.target.value)}}/>
                             </div> 
                         </label>
                     </div>
                     <div className='field'>
                         <label className='label'>Enter deadline: 
-                            <input className='input' name = "deadline" placeholder='deadline' type = {'date'} onChange={(e) => {setDeadline(e.target.value)}}/>
+                            <input className='input' required name = "deadline" placeholder='deadline' type = {'date'} onChange={(e) => {setDeadline(e.target.value)}}/>
                         </label>
                     </div>
                     <div className='field'>

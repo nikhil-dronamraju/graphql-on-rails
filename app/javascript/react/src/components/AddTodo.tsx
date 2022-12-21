@@ -29,13 +29,13 @@ const AddTodo = (user) => {
                     <div className='field'>
                         <label htmlFor="action" className='label'>Enter Task: </label>
                         <div className='control'>
-                            <input className='input' placeholder='Task...' onChange={(e) => {setAction(e.target.value)}}/>
+                            <input className='input' required placeholder='Task...' onChange={(e) => {setAction(e.target.value)}}/>
                         </div>
                     </div>
                     <div className='field'>
                         <label className = 'label' htmlFor = "deadline">Enter deadline: </label>
                         <div className='control'>
-                            <input className='input' name = "deadline" placeholder='deadline' type = {'date'} onChange={(e) => {setDeadline(e.target.value)}}/>
+                            <input className='input'  name = "deadline" placeholder='deadline' type = {'date'} onChange={(e) => {setDeadline(e.target.value)}} required = {true}/>
                         </div>
                     </div>
                     <div>
