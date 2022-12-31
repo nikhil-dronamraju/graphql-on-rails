@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Thanks for checking this app out! To begin, here's some of the information about the app:
 
-Things you may want to cover:
+- Ruby Version: 3.1.2
 
-* Ruby version
+- Database: PostgreSQL
 
-* System dependencies
+- React Version: 18.2.0
 
-* Configuration
+Check the <code>gemfile</code> and <code>yarn.lock</code> files for more information.
 
-* Database creation
+## Install:
+This project by running the following code in a new terminal:
+1. <code>git clone https://github.com/nikhil-dronamraju/graphql-on-rails.git</code>
+2. <code>cd graphql-on-rails</code>
+2. <code>bundle</code>
+3. <code>yarn</code>
 
-* Database initialization
+> **Be sure to install your own Firebase config, however!**
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thanks again for checking this page out!
