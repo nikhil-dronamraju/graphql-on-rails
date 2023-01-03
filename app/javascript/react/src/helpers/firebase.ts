@@ -14,7 +14,7 @@ const firebaseConfig = {
   storageBucket: "graphql-on-rails-700d3.appspot.com",
   messagingSenderId: "692509302302",
   appId: "1:692509302302:web:e8330b443f57b4c521d80f",
-  measurementId: "G-KRC1EPKY2F"
+  measurementId: "G-KRC1EPKY2F",
 };
 
 // Initialize Firebase
